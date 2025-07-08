@@ -73,124 +73,124 @@ resources:
           description: Raça/Cor
         - name: cs_escol_n
           type: string
-          title:
-          description:
+          title: Escolaridade
+          description: Escolaridade
         - name: id_mn_resi
           type: integer
-          title:
-          description:
+          title: Município de Residência
+          description: Município de Residência
         - name: id_rg_resi
           type: string
-          title:
-          description:
+          title: Regional de Residência
+          description: Regional de Residência
         - name: cs_zona
           type: string
-          title:
-          description:
+          title: Zona de residência do paciente
+          description: Zona de residência do paciente
         - name: agravaids
           type: string
-          title:
-          description:
+          title: Doenças e agravos associados Aids
+          description: Doenças e agravos associados Aids
         - name: agravalcoo
           type: string
-          title:
-          description:
+          title: Doenças e agravos associados Alcoolismo
+          description: Doenças e agravos associados Alcoolismo
         - name: agravdiabe
           type: string
-          title:
-          description:
+          title: Doenças e agravos associados Diabete
+          description: Doenças e agravos associados Diabete
         - name: agravdoenc
           type: string
-          title:
-          description:
+          title: Doenças e agravos associados Doença Mental
+          description: Doenças e agravos associados Doença Mental
         - name: agravoutra
           type: string
-          title:
-          description:
+          title: Doenças e agravos associados Outras
+          description: Doenças e agravos associados Outras
         - name: agravdroga
           type: string
-          title:
-          description:
+          title: Doenças e agravos associados Uso de drogas ilícitas
+          description: Doenças e agravos associados Uso de drogas ilícitas
         - name: agravtabac
           type: string
-          title:
-          description:
+          title: Doenças e agravos associados Tabagismo
+          description: Doenças e agravos associados Tabagismo
         - name: tratamento
           type: string
-          title:
-          description:
+          title: Tipo de Entrada
+          description: Tipo de Entrada
         - name: cultura_es
           type: string
-          title:
-          description:
+          title: Cultura de escarro
+          description: Resultado da cultura de escarro ou outro material realizada para tuberculos
         - name: hiv
           type: string
-          title:
-          description:
+          title: Resultado da sorologia para o HIV
+          description: Resultado da sorologia para o vírus da imunodeficiência adquirida
         - name: histopatol
           type: string
-          title:
-          description:
+          title: Histopatologia
+          description: Resultado do exame histopatólogico para diagnóstico de Tuberculose
         - name: dt_inic_tr
           type: date
-          title:
-          description:
+          title: Data em que o paciente iniciou o tratamento atual
+          description: Data em que o paciente iniciou o tratamento atual
         - name: bacilosc_1
           type: string
-          title:
-          description:
+          title: Baciloscopia no 1º mês
+          description: Baciloscopia no 1º mês
         - name: bacilosc_2
           type: string
-          title:
-          description:
+          title: Baciloscopia no 2º mês
+          description: Baciloscopia no 2º mês
         - name: bacilosc_3
           type: string
-          title:
-          description:
+          title: Baciloscopia no 3º mês
+          description: Baciloscopia no 3º mês
         - name: bacilosc_4
           type: string
-          title:
-          description:
+          title: Baciloscopia no 4º mês
+          description: Baciloscopia no 4º mês
         - name: bacilosc_5
           type: string
-          title:
-          description:
-        - name: bacilosc_6
+          title: Baciloscopia no 5º mês
+          description: Baciloscopia no 5º mês
+        - name: bacilosc_6 
           type: string
-          title:
-          description:
+          title: Baciloscopia no 6º mês
+          description: Baciloscopia no 6º mês
         - name: tratsup_at
           type: string
-          title:
-          description:
+          title: Tratamento Diretamente Observado (TDO)
+          description: Tratamento Diretamente Observado (TDO) realizado
         - name: situa_ence
           type: string
-          title:
-          description:
+          title: Situação de encerramento
+          description: Situação de encerramento
         - name: dt_encerra
           type: date
-          title:
-          description:
+          title: Data de encerramento
+          description: Data de encerramento
         - name: pop_liber
           type: string
-          title:
-          description:
+          title: Populações Especiais População privada de liberdade
+          description: Populações Especiais População privada de liberdade
         - name: test_molec
           type: string
-          title:
-          description:
+          title: Teste Molecular Rápido TB (TMR-TB)
+          description: Teste Molecular Rápido TB (TMR-TB)
         - name: test_sensi
           type: string
-          title:
-          description:
+          title: Teste de Sensibilidade
+          description: Teste de Sensibilidade
         - name: raiox_tora
-          type: string
-          title:
-          description:
+          type: string 
+          title: Radiografia do tórax
+          description: Radiografia do tórax
         - name: forma
           type: string
-          title:
-          description:
+          title: Forma clínica da tuberculose
+          description: Forma clínica da tuberculose
     scheme: file
     title: Dados de Tuberculose
 title: Dados de Tuberculose
