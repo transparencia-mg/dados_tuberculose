@@ -273,7 +273,7 @@ resources:
               - 'Mudança de Esquema'
               - 'Falência'
               - 'Abandono Primário'
-       - name: dt_encerra
+        - name: dt_encerra
           type: date
           title: Data de encerramento
           description: Data de encerramento
@@ -324,7 +324,7 @@ resources:
           type: string
           title: Forma clínica da tuberculose
           description: Forma clínica da tuberculose
-           constraints:
+          constraints:
             enum:
               - 'Pulmonar'
               - 'Extrapulmonar'
