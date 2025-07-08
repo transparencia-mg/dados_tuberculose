@@ -2,7 +2,7 @@ name: dados-tuberculose
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
-  - description:A tuberculose (TB) é uma doença crônica, transmissível e de notificação compulsória. O acompanhamento de indicadores importantes como incidência, mortalidade e cura, entre outros epidemiológicos e operacionais, possibilitam traçar um panorama da TB no território
+  - description: A tuberculose (TB) é uma doença crônica, transmissível e de notificação compulsória. O acompanhamento de indicadores importantes como incidência, mortalidade e cura, entre outros epidemiológicos e operacionais, possibilitam traçar um panorama da TB no território
     dialect:
       delimiter: ;
     encoding: utf-8-sig
