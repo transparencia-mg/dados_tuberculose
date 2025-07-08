@@ -1,8 +1,8 @@
-name: dados_tuberculose
+name: Dados de Tuberculose
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: Dados de Tuberculose
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -96,5 +96,5 @@ resources:
         - name: forma
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-title: Dados_tuberculose
+    title: Dados de Tuberculose
+title: Dados de Tuberculose
