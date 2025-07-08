@@ -15,86 +15,182 @@ resources:
       fields:
         - name: id_agravo
           type: string
+          title: ID do Agravo
+          description: ID do Agravo
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de Notificação
         - name: nu_ano
           type: integer
+          title: Ano de Notificação
+          description: Ano de Notificação
         - name: id_municip
           type: integer
+          title: Município de Notificação
+          description: Município de Notificação
         - name: id_regiona
           type: integer
+          title: Regional de Notificação
+          description: Regional de Notificação
         - name: id_unidade
           type: integer
+          title: Unidade de Notificação
+          description: Unidade de Notificação
         - name: dt_diag
           type: date
+          title: Data de Diagnóstico
+          description: Data de Diagnóstico
         - name: nu_idade_n
           type: integer
+          title: Idade
+          description: Idade
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_gestant
           type: string
+          title: Gestante
+          description: Gestante
+          constraints:
+             enum:
+               - '1° Trimestre'
+               - '2° Trimestre'
+               - '3° Trimestre'
+               - 'Idade gestacional ignorada'
+               - 'Não'
+               - 'Não se aplica'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
         - name: cs_escol_n
           type: string
+          title:
+          description:
         - name: id_mn_resi
           type: integer
+          title:
+          description:
         - name: id_rg_resi
           type: string
+          title:
+          description:
         - name: cs_zona
           type: string
+          title:
+          description:
         - name: agravaids
           type: string
+          title:
+          description:
         - name: agravalcoo
           type: string
+          title:
+          description:
         - name: agravdiabe
           type: string
+          title:
+          description:
         - name: agravdoenc
           type: string
+          title:
+          description:
         - name: agravoutra
           type: string
+          title:
+          description:
         - name: agravdroga
           type: string
+          title:
+          description:
         - name: agravtabac
           type: string
+          title:
+          description:
         - name: tratamento
           type: string
+          title:
+          description:
         - name: cultura_es
           type: string
+          title:
+          description:
         - name: hiv
           type: string
+          title:
+          description:
         - name: histopatol
           type: string
+          title:
+          description:
         - name: dt_inic_tr
           type: date
+          title:
+          description:
         - name: bacilosc_1
           type: string
+          title:
+          description:
         - name: bacilosc_2
           type: string
+          title:
+          description:
         - name: bacilosc_3
           type: string
+          title:
+          description:
         - name: bacilosc_4
           type: string
+          title:
+          description:
         - name: bacilosc_5
           type: string
+          title:
+          description:
         - name: bacilosc_6
           type: string
+          title:
+          description:
         - name: tratsup_at
           type: string
+          title:
+          description:
         - name: situa_ence
           type: string
+          title:
+          description:
         - name: dt_encerra
           type: date
+          title:
+          description:
         - name: pop_liber
           type: string
+          title:
+          description:
         - name: test_molec
           type: string
+          title:
+          description:
         - name: test_sensi
           type: string
+          title:
+          description:
         - name: raiox_tora
           type: string
+          title:
+          description:
         - name: forma
           type: string
+          title:
+          description:
     scheme: file
     title: Dados de Tuberculose
 title: Dados de Tuberculose
