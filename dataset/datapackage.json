@@ -18,167 +18,267 @@
         "fields": [
           {
             "name": "id_agravo",
-            "type": "string"
+            "type": "string",
+            "title": "ID do Agravo",
+            "description": "ID do Agravo"
           },
           {
             "name": "dt_notific",
-            "type": "date"
+            "type": "date",
+            "title": "Data de Notificação",
+            "description": "Data de Notificação"
           },
           {
             "name": "nu_ano",
-            "type": "integer"
+            "type": "integer",
+            "title": "Ano de Notificação",
+            "description": "Ano de Notificação"
           },
           {
             "name": "id_municip",
-            "type": "integer"
+            "type": "integer",
+            "title": "Município de Notificação",
+            "description": "Município de Notificação"
           },
           {
             "name": "id_regiona",
-            "type": "integer"
+            "type": "integer",
+            "title": "Regional de Notificação",
+            "description": "Regional de Notificação"
           },
           {
             "name": "id_unidade",
-            "type": "integer"
+            "type": "integer",
+            "title": "Unidade de Notificação",
+            "description": "Unidade de Notificação"
           },
           {
             "name": "dt_diag",
-            "type": "date"
+            "type": "date",
+            "title": "Data de Diagnóstico",
+            "description": "Data de Diagnóstico"
           },
           {
             "name": "nu_idade_n",
-            "type": "integer"
+            "type": "integer",
+            "title": "Idade",
+            "description": "Idade"
           },
           {
             "name": "cs_sexo",
-            "type": "string"
+            "type": "string",
+            "title": "Sexo",
+            "description": "Sexo",
+            "constraints": {
+              "enum": [
+                "Feminino",
+                "Masculino",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "cs_gestant",
-            "type": "string"
+            "type": "string",
+            "title": "Gestante",
+            "description": "Gestante",
+            "constraints": {
+              "enum": [
+                "1° Trimestre",
+                "2° Trimestre",
+                "3° Trimestre",
+                "Idade gestacional ignorada",
+                "Não",
+                "Não se aplica",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "cs_raca",
-            "type": "string"
+            "type": "string",
+            "title": "Raça/Cor",
+            "description": "Raça/Cor"
           },
           {
             "name": "cs_escol_n",
-            "type": "string"
+            "type": "string",
+            "title": "Escolaridade",
+            "description": "Escolaridade"
           },
           {
             "name": "id_mn_resi",
-            "type": "integer"
+            "type": "integer",
+            "title": "Município de Residência",
+            "description": "Município de Residência"
           },
           {
             "name": "id_rg_resi",
-            "type": "string"
+            "type": "string",
+            "title": "Regional de Residência",
+            "description": "Regional de Residência"
           },
           {
             "name": "cs_zona",
-            "type": "string"
+            "type": "string",
+            "title": "Zona de residência do paciente",
+            "description": "Zona de residência do paciente"
           },
           {
             "name": "agravaids",
-            "type": "string"
+            "type": "string",
+            "title": "Doenças e agravos associados Aids",
+            "description": "Doenças e agravos associados Aids"
           },
           {
             "name": "agravalcoo",
-            "type": "string"
+            "type": "string",
+            "title": "Doenças e agravos associados Alcoolismo",
+            "description": "Doenças e agravos associados Alcoolismo"
           },
           {
             "name": "agravdiabe",
-            "type": "string"
+            "type": "string",
+            "title": "Doenças e agravos associados Diabete",
+            "description": "Doenças e agravos associados Diabete"
           },
           {
             "name": "agravdoenc",
-            "type": "string"
+            "type": "string",
+            "title": "Doenças e agravos associados Doença Mental",
+            "description": "Doenças e agravos associados Doença Mental"
           },
           {
             "name": "agravoutra",
-            "type": "string"
+            "type": "string",
+            "title": "Doenças e agravos associados Outras",
+            "description": "Doenças e agravos associados Outras"
           },
           {
             "name": "agravdroga",
-            "type": "string"
+            "type": "string",
+            "title": "Doenças e agravos associados Uso de drogas ilícitas",
+            "description": "Doenças e agravos associados Uso de drogas ilícitas"
           },
           {
             "name": "agravtabac",
-            "type": "string"
+            "type": "string",
+            "title": "Doenças e agravos associados Tabagismo",
+            "description": "Doenças e agravos associados Tabagismo"
           },
           {
             "name": "tratamento",
-            "type": "string"
+            "type": "string",
+            "title": "Tipo de Entrada",
+            "description": "Tipo de Entrada"
           },
           {
             "name": "cultura_es",
-            "type": "string"
+            "type": "string",
+            "title": "Cultura de escarro",
+            "description": "Resultado da cultura de escarro ou outro material realizada para tuberculos"
           },
           {
             "name": "hiv",
-            "type": "string"
+            "type": "string",
+            "title": "Resultado da sorologia para o HIV",
+            "description": "Resultado da sorologia para o vírus da imunodeficiência adquirida"
           },
           {
             "name": "histopatol",
-            "type": "string"
+            "type": "string",
+            "title": "Histopatologia",
+            "description": "Resultado do exame histopatólogico para diagnóstico de Tuberculose"
           },
           {
             "name": "dt_inic_tr",
-            "type": "date"
+            "type": "date",
+            "title": "Data em que o paciente iniciou o tratamento atual",
+            "description": "Data em que o paciente iniciou o tratamento atual"
           },
           {
             "name": "bacilosc_1",
-            "type": "string"
+            "type": "string",
+            "title": "Baciloscopia no 1º mês",
+            "description": "Baciloscopia no 1º mês"
           },
           {
             "name": "bacilosc_2",
-            "type": "string"
+            "type": "string",
+            "title": "Baciloscopia no 2º mês",
+            "description": "Baciloscopia no 2º mês"
           },
           {
             "name": "bacilosc_3",
-            "type": "string"
+            "type": "string",
+            "title": "Baciloscopia no 3º mês",
+            "description": "Baciloscopia no 3º mês"
           },
           {
             "name": "bacilosc_4",
-            "type": "string"
+            "type": "string",
+            "title": "Baciloscopia no 4º mês",
+            "description": "Baciloscopia no 4º mês"
           },
           {
             "name": "bacilosc_5",
-            "type": "string"
+            "type": "string",
+            "title": "Baciloscopia no 5º mês",
+            "description": "Baciloscopia no 5º mês"
           },
           {
             "name": "bacilosc_6",
-            "type": "string"
+            "type": "string",
+            "title": "Baciloscopia no 6º mês",
+            "description": "Baciloscopia no 6º mês"
           },
           {
             "name": "tratsup_at",
-            "type": "string"
+            "type": "string",
+            "title": "Tratamento Diretamente Observado (TDO)",
+            "description": "Tratamento Diretamente Observado (TDO) realizado"
           },
           {
             "name": "situa_ence",
-            "type": "string"
+            "type": "string",
+            "title": "Situação de encerramento",
+            "description": "Situação de encerramento"
           },
           {
             "name": "dt_encerra",
-            "type": "date"
+            "type": "date",
+            "title": "Data de encerramento",
+            "description": "Data de encerramento"
           },
           {
             "name": "pop_liber",
-            "type": "string"
+            "type": "string",
+            "title": "Populações Especiais População privada de liberdade",
+            "description": "Populações Especiais População privada de liberdade"
           },
           {
             "name": "test_molec",
-            "type": "string"
+            "type": "string",
+            "title": "Teste Molecular Rápido TB (TMR-TB)",
+            "description": "Teste Molecular Rápido TB (TMR-TB)"
           },
           {
             "name": "test_sensi",
-            "type": "string"
+            "type": "string",
+            "title": "Teste de Sensibilidade",
+            "description": "Teste de Sensibilidade"
           },
           {
             "name": "raiox_tora",
-            "type": "string"
+            "type": "string",
+            "title": "Radiografia do tórax",
+            "description": "Radiografia do tórax"
           },
           {
             "name": "forma",
-            "type": "string"
+            "type": "string",
+            "title": "Forma clínica da tuberculose",
+            "description": "Forma clínica da tuberculose"
           }
         ]
       },
