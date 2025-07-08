@@ -261,7 +261,7 @@ resources:
           type: string
           title: Situação de encerramento
           description: Situação de encerramento
-         constraints:
+          constraints:
             enum:
               - 'Cura'
               - 'Óbito por TB'
