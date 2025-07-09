@@ -1,11 +1,10 @@
 {
   "version": "4.16.6",
-  "time": 0.753,
+  "time": 0.792,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "A tuberculose (TB) é uma doença crônica, transmissível e de notificação compulsória. O acompanhamento de indicadores importantes como incidência, mortalidade e cura, entre outros epidemiológicos e operacionais, possibilitam traçar um panorama da TB no território",
         "dialect": {
           "delimiter": ";"
         },
@@ -470,7 +469,7 @@
           "rows": 0
         }
       },
-      "time": 0.725,
+      "time": 0.764,
       "scope": [
         "hash-count-error",
         "byte-count-error",
